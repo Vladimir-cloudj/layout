@@ -1,0 +1,41 @@
+/* обнуление стилей */
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a {
+    text-decoration:none;
+}
+/* horizontal_menu */
+.menu {
+    width:1280px;
+    margin: 0 auto;
+}
+.menu:before{
+    content:''; 
+    display:block;
+    height:50px;
+    width:100%;
+    background:#000;
+    position:absolute;
+    left:0;
+    z-index:-1;
+}
+.menu__list{
+    height:50px;
+}
+.list__item{
+    float:left;
+}
+.list__link{
+    color:#fff;
+    display:block;
+    height:50px;
+    padding:0 30px;
+    text-transform:uppercase;
+    line-height:50px;
+} 
+.list__link:hover{
+    background:#d34d43;
+}
